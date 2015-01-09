@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Lang" content="pt">
+<title>Minha página de Login</title>
+</head>
+<body>
+
+    <form method="post" action="Inserir_alimentos.php">
+        <label for="idAlimento">Alimento:</label>
+        <input type="text" name="Alimento" id="idAlimento">
+        <label for="idQuantid">Quantidade:</label>
+        <input type="text" name="Quantidade" id="idQuantidade">
+        <input type="submit" value="Inserir">
+    </form>
+	<h1><?php echo "Pageviews = ". $_SESSION['login']; //retrieve data  ?></h1>
+	
+</body>
+</html>
